@@ -6,7 +6,7 @@ _Repo created as part of the [BeCode web development training](https://becode.or
 - Type of challenge : consolidation
 - Duration : 3 days
 
-## Languages used
+## Technology used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
