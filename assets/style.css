@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Bellota';
+  src: url('fonts/Bellota-Bold.otf') format("opentype"),
+  url('fonts/Bellota-Regular.otf') format("opentype");
+}
+.body_font {
+  font-family: 'Bellota';
+  font-weight: bold;
+  color: #303030;
+}
+.mon_header, .mon_footer {
+  background-color: #0d8187;
+  color: #fff;
+}
+
+.mon_btn {
+  background-color: #0d8187;
+}
