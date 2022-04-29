@@ -12,10 +12,10 @@
     >
     <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="body_font d-flex flex-column min-vh-100">
     <div class="container">
 
-    <?php include_once('header.php'); ?>
+    <?php include_once('template/header.php'); ?>
         <h1>Hackers Poulette ™</h1>
         <!-- Ce lien appelle la page bonjour.php et lui envoie deux paramètres: nom et prenom -->
         <a href="bonjour.php?nom=Dupont&amp;prenom=Jean">Dis-moi bonjour!</a>
@@ -26,7 +26,7 @@
         ?>
 
         <!-- inclusion de l'entête du site -->
-        <?php include_once('header.php'); ?>
+        <?php include_once('template/header.php'); ?>
         
         <?php foreach(getRecipes($recipes) as $recipe) : ?>
             <article>
@@ -38,6 +38,6 @@
     </div>
 
     <!-- inclusion du bas de page du site -->
-    <?php include_once('footer.php'); ?>
+    <?php include_once('template/footer.php'); ?>
 </body>
 </html>

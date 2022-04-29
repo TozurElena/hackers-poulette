@@ -33,7 +33,7 @@ if (isset($_FILES['screenshot']) && $_FILES['screenshot']['error'] == 0) {
 </head>
 <body class="d-flex flex-column min-vh-100">
     <div class="container">
-        <?php include_once('header.php'); ?>
+        <?php include_once('template/header.php'); ?>
         <h1 class="mt-5">Message bien reçu !</h1>
         <div class="card-body mb-5">
             <h5 class="card-title mb-3">Rappel de vos informations</h5>

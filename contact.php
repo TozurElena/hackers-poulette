@@ -16,7 +16,7 @@
 <body class="d-flex flex-column min-vh-100 body_font">
   <div class="container">
 
-    <?php include_once('header.php'); ?>
+    <?php include_once('template/header.php'); ?>
         <div class="row flex mt-5">
             <div class="col-4 text-center">
                 <h1 class="text-wrap">Contactez nous</h1>
@@ -78,6 +78,6 @@
         <br/>
     </div>
 
-  <?php include_once('footer.php'); ?>
+  <?php include_once('template/footer.php'); ?>
 </body>
 </html>
