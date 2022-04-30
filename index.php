@@ -17,24 +17,9 @@
 
     <?php include_once('template/header.php'); ?>
         <h1>Hackers Poulette ™</h1>
-        <!-- Ce lien appelle la page bonjour.php et lui envoie deux paramètres: nom et prenom -->
-        <a href="bonjour.php?nom=Dupont&amp;prenom=Jean">Dis-moi bonjour!</a>
-        <!-- inclusion des variables et fonctions -->
-        <?php
-            include_once('variables.php');
-            include_once('functions.php');
-        ?>
-
-        <!-- inclusion de l'entête du site -->
-        <?php include_once('template/header.php'); ?>
         
-        <?php foreach(getRecipes($recipes) as $recipe) : ?>
-            <article>
-                <h3><?php echo $recipe['title']; ?></h3>
-                <div><?php echo $recipe['recipe']; ?></div>
-                <i><?php echo displayAuthor($recipe['author'], $users); ?></i>
-            </article>
-        <?php endforeach ?>
+        
+        
     </div>
 
     <!-- inclusion du bas de page du site -->

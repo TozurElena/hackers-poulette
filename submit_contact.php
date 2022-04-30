@@ -1,22 +1,22 @@
 
 <?php
+include_once('variables.php');
+
 if (
-    (!isset($_GET['email']) || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL))
-    || (!isset($_GET['message']) || empty($_GET['message']))
-    || (!isset($_GET['name']) || empty($_GET['name']))
-    || (!isset($_GET['lastName']) || empty($_GET['lastName']))
+    (!isset($email) || !filter_var($email, FILTER_VALIDATE_EMAIL))
+    || (!isset($message) || empty($message))
+    || (!isset($prenom) || empty($prenom))
+    || (!isset($nom) || empty($nom))
+    || (!isset($genre) || empty($genre))
+    || (!isset($country) || empty($country))
     )
+
 {
-	echo('Il faut un email et un message valides pour soumettre le formulaire.');
+	echo('Il faut  remplir tous les champs (sauf subject)  pour soumettre le formulaire.');
+    echo "<br><a href='contact.php'>Formulaire Contact</a>";
     return;
 } 
-// Testons si le fishier a bien été envoyé et s'il n'y a pas d'erreur
-if (isset($_FILES['screenshot']) && $_FILES['screenshot']['error'] == 0) {
-    // testons si le fishier n'est pas trop gros
-    if ($_FILES['screenshot']['size'] <= 1000000) {
-        
-    }
-}
+
 ?>
 <!DOCTYPE html>
 <html>

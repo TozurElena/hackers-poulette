@@ -1,4 +1,5 @@
 <!-- contact.php -->
+<?php require 'conn.php'; ?>;
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +59,7 @@
                     <input type="text" class="form-control"  name="country" placeholder="Country">
                 </div>
                 <div class="mb-3">
-                    <select class="form-select form-select-sm" aria-label="Other">
+                    <select class="form-select form-select-dm" aria-label="Other" name="subject">
                         <option selected>Subject</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
