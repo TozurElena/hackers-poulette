@@ -1,5 +1,5 @@
 <!-- contact.php -->
-<?php require 'conn.php'; ?>;
+<?php require 'conn.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,6 +79,8 @@
         <br/>
     </div>
 
-  <?php include_once('template/footer.php'); ?>
+  <?php 
+  
+  include_once('template/footer.php'); ?>
 </body>
 </html>
