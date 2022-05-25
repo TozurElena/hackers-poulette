@@ -55,10 +55,10 @@ Optional :
 
 ### Project Timeline
 
-- [ ] Plan the work ahead
-- [ ] Contact form (html)
-- [ ] Contact form (css via framework css)
-- [ ] Contact form (PHP)
+- [x] Plan the work ahead
+- [x] Contact form (html)
+- [x] Contact form (css via framework css)
+- [x] Contact form (PHP)
 - [ ] Process the form data
 
 ## Result
