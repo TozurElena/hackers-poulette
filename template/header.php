@@ -3,7 +3,7 @@
 
 
 
-<nav class="mon_header navbar navbar-expand-lg navbar-light ">
+<nav class="mon_header navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">Hackers Poulette ™</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
