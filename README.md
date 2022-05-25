@@ -66,7 +66,7 @@ Optional :
 ### Mockup
 
 <p align="center">
-    <img src="/assets/img/" width="800"/>
+    <img src="/assets/img/HachersPouletteMock-up.png" width="800"/>
 </p>
 
 ### Overview
