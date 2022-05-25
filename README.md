@@ -63,7 +63,7 @@ Optional :
 
 ## Result
 
-### Figma Mockup
+### Mockup
 
 <p align="center">
     <img src="/assets/img/" width="800"/>
